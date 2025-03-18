@@ -17,7 +17,7 @@ function Routing() {
   return (
     <div>
       <Router>
-        <Routes basename="/amazon-clone">
+        <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/auth" element={<Auth />} />
           <Route path='/payment' element={
