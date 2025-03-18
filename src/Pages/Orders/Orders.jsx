@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 
 import { db } from "../../Utility/firebase"
-import { DataContext } from "../../Components/DataProvider/DataProvidere"
+import { DataContext } from "../../Components/DataProvider/DataProvider"
 import { useEffect, useContext, useState } from "react"
 import Layout from "../../Components/LayOut/LayOut"
 import classes from "./order.module.css"

@@ -5,7 +5,7 @@ import { BiCart } from "react-icons/bi"
 import LowerHeader from "./LowerHeader"
 import { Link } from "react-router-dom"
 import { useContext } from "react"
-import { DataContext } from "../DataProvider/DataProvidere"
+import { DataContext } from "../DataProvider/DataProvider"
 import { auth } from "../../Utility/firebase"
 function Header() {
   const [{ basket, user }, dispatch] = useContext(DataContext)

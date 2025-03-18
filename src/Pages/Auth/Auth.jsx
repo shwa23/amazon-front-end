@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import { useState, useContext } from "react"
 import { auth } from '../../Utility/firebase'
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth'
-import { DataContext } from "../../components/DataProvider/DataProvidere"
+import { DataContext } from "../../components/DataProvider/DataProvider"
 import { Type } from '../../Utility/action.type'
 import { PuffLoader } from 'react-spinners'
 import { useNavigate, useLocation } from 'react-router-dom'

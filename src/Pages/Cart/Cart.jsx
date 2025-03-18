@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import LayOut from "../../Components/LayOut/LayOut"
-import { DataContext } from "../../Components/DataProvider/DataProvidere"
+import { DataContext } from "../../Components/DataProvider/DataProvider"
 import ProdcutCard from "../../Components/Product/ProdcutCard"
 import CurrencyFormat from "../../Components/CurrecyFormat/CurrencyFormat"
 import { Link } from "react-router-dom"

@@ -3,7 +3,7 @@ import style from "./product.module.css"
 import Rating from "@mui/material/Rating"
 import CurrencyFormat from "../CurrecyFormat/CurrencyFormat"
 import { Link } from "react-router-dom"
-import { DataContext } from "../DataProvider/DataProvidere"
+import { DataContext } from "../DataProvider/DataProvider"
 import { Type } from "../../Utility/action.type"
 function ProdcutCard({ data, flex, renderDesc, renderADD }) {
     // console.log(data);

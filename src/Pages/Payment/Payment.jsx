@@ -3,7 +3,7 @@
 import { useContext, useState } from "react"
 import Layout from "../../Components/LayOut/LayOut.jsx"
 import classes from "./payment.module.css"
-import { DataContext } from "../../Components/DataProvider/DataProvidere.jsx"
+import { DataContext } from "../../Components/DataProvider/DataProvider.jsx"
 import ProductCard from "../../Components/Product/ProdcutCard.jsx"
 import { useStripe, useElements, CardElement } from '@stripe/react-stripe-js';
 import CurrencyFormat from "../../Components/CurrecyFormat/CurrencyFormat.jsx"
